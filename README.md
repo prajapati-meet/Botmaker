@@ -59,7 +59,7 @@ Users can register, log in, and access content based on their assigned roles (**
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/prajapati-meet/Botmaker.git
 cd project-folder
 ```
 
@@ -74,9 +74,8 @@ Update `application.properties`:
 spring.datasource.url=jdbc:mysql://localhost:3306/auth_db
 spring.datasource.username=root
 spring.datasource.password=your_password
-
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+
 ```
 
 #### Run Backend
@@ -100,7 +99,7 @@ http://localhost:8080
 ### 3. Frontend Setup (React)
 
 ```bash
-cd frontend
+cd Botmakers_frontend/Botmaker
 npm install
 npm run dev
 ```
@@ -160,13 +159,13 @@ http://localhost:5173
 ![Login](Screenshots/login.png)
 
 ### Register Page
-![Register](screenshots/register.png)
+![Register](Screenshots/register.png)
 
 ### User Dashboard
-![User](screenshots/dashboard_user.png)
+![User](Screenshots/dashboard_user.png)
 
 ### Admin Dashboard
-![Admin](screenshots/dashboard_admin.png)
+![Admin](Screenshots/dashboard_admin.png)
 
 
 ## Demo Video 
